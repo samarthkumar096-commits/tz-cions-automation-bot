@@ -4,13 +4,18 @@
   "description": "Complete automation bot for tz-cions.com with login and signup features",
   "main": "bot.js",
   "scripts": {
-    "start": "node bot.js",
+    "start": "node server.js",
+    "dev": "node bot.js",
     "login": "node bot.js login",
     "signup": "node bot.js signup",
     "inspect": "node bot.js inspect"
   },
   "dependencies": {
-    "puppeteer": "^21.6.1"
+    "puppeteer": "^21.6.1",
+    "express": "^4.18.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
   },
   "keywords": [
     "automation",
