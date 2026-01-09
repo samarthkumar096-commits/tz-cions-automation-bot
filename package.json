@@ -1,0 +1,25 @@
+{
+  "name": "tz-cions-automation-bot",
+  "version": "1.0.0",
+  "description": "Complete automation bot for tz-cions.com with login and signup features",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "login": "node bot.js login",
+    "signup": "node bot.js signup",
+    "inspect": "node bot.js inspect"
+  },
+  "dependencies": {
+    "puppeteer": "^21.6.1"
+  },
+  "keywords": [
+    "automation",
+    "bot",
+    "puppeteer",
+    "tz-cions",
+    "login",
+    "signup"
+  ],
+  "author": "Bhindi",
+  "license": "MIT"
+}
